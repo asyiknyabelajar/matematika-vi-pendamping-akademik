@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#103f32">
+  <meta name="description" content="Belajar Matematika Kelas VI SD/MI: pecahan dan desimal, rasio, kubus dan balok, peluang, penguatan, serta proyek dan latihan interaktif. Pendamping Akademik.">
+  <title>Matematika Kelas VI SD/MI | Pendamping Akademik</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#isi">Langsung ke materi</a>
+  <div class="site-shell">
+    <header class="masthead">
+      <div class="brandmark" aria-hidden="true">∑</div>
+      <div class="brandcopy">
+        <div class="brandname">PENDAMPING <span>AKADEMIK</span></div>
+        <div class="brandtitle">Matematika Kelas VI <span>SD/MI</span></div>
+        <div class="brandtag">Solusi Belajar Mandiri Terpadu · Kurikulum Merdeka</div>
+      </div>
+      <button id="mobileMenu" class="hamburger" type="button" aria-label="Buka daftar materi" aria-expanded="false">☰ Materi</button>
+    </header>
+    <section class="overview" aria-label="Ringkasan belajar">
+      <div><span class="minor">PETUALANGAN MATEMATIKA</span><h1>Belajar sedikit demi sedikit,<br><em>paham sampai bisa.</em></h1><p>Pilih topik, baca contoh, jawab pertanyaannya. Belajar dengan bahasa sederhana dan langkah yang jelas.</p></div>
+      <div class="overview-stat"><span class="big-stat" id="progressCount">0 / 78</span><span>materi selesai</span><div class="bar"><div id="progressBar"></div></div><small id="progressPercent">0% kemajuan</small></div>
+    </section>
+    <div class="app-layout">
+      <aside id="sidebar" class="sidebar" aria-label="Daftar isi mata pelajaran">
+        <div class="sidebar-head"><h2>Daftar Materi</h2><button id="closeMenu" class="close-menu" aria-label="Tutup daftar materi">✕</button></div>
+        <label class="search-wrap"><span>🔎</span><input id="searchInput" type="search" placeholder="Cari bab atau submateri…" aria-label="Cari submateri" autocomplete="off"></label>
+        <nav id="lessonNav" aria-label="Navigasi bab dan submateri"></nav>
+        <div class="sidebar-foot"><button class="link-button" data-action="guide">ⓘ Cara menggunakan</button><small>Materi inti dan penguatan dibedakan dengan jelas.</small></div>
+      </aside>
+      <main id="isi" tabindex="-1" class="main" aria-live="polite">
+        <div class="utility-bar"><div id="breadcrumbs" class="breadcrumbs"></div><div class="utility-actions"><button id="speakButton" class="tiny-button" title="Dengarkan materi">🔊 Dengarkan</button><button id="practiceButton" class="tiny-button" title="Latihan campuran 10 soal">✍️ Latihan 10 soal</button></div></div>
+        <section id="content" class="content"><p>Memuat materi pembelajaran…</p></section>
+      </main>
+    </div>
+    <footer class="footer"><strong>Pendamping Akademik</strong> · Matematika VI · <span id="edition">2026/2027</span> <span class="footer-note">Pengayaan dan pembagian submateri adalah pengembangan Pendamping Akademik.</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
